@@ -2,12 +2,47 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
     background-color: #f0f0f0;
+>>>>>>> 3dd3356efad840400ccd2a2ef40fc903a45598e2
 }
 
 header {
     background-color: #333;
     color: white;
+<<<<<<< HEAD
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #0056b3;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #0056b3;
+    color: white;
+=======
     padding: 20px;
     text-align: center;
 }
@@ -53,10 +88,26 @@ button {
     background-color: #333;
     color: white;
     padding: 10px 20px;
+>>>>>>> 3dd3356efad840400ccd2a2ef40fc903a45598e2
     border: none;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
+form button:hover {
+    background-color: #003d80;
+}
+
+.info-contacto {
+    margin-top: 20px;
+}
+
+.mapa iframe {
+    width: 100%;
+    border-radius: 5px;
+}
+
+=======
 button:hover {
     background-color: #444;
 }
@@ -70,3 +121,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+>>>>>>> 3dd3356efad840400ccd2a2ef40fc903a45598e2
