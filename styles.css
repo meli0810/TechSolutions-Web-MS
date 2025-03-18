@@ -2,11 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
+    background-color: #f0f0f0;
+>>>>>>> 3dd3356efad840400ccd2a2ef40fc903a45598e2
 }
 
 header {
     background-color: #333;
     color: white;
+<<<<<<< HEAD
     text-align: center;
     padding: 20px;
 }
@@ -37,10 +42,58 @@ form input, form textarea, form button {
 form button {
     background-color: #0056b3;
     color: white;
+=======
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+iframe {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+>>>>>>> 3dd3356efad840400ccd2a2ef40fc903a45598e2
     border: none;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 form button:hover {
     background-color: #003d80;
 }
@@ -54,3 +107,18 @@ form button:hover {
     border-radius: 5px;
 }
 
+=======
+button:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+>>>>>>> 3dd3356efad840400ccd2a2ef40fc903a45598e2
